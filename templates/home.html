@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Obesity Prediction{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Understanding & Preventing Obesity</h1>
+        <p>Take control of your health with our advanced obesity prediction tool and personalized recommendations.</p>
+        <a href="{{ url_for('predict_form') }}" class="btn btn-primary">Check Your Status</a>
+    </div>
+</section>
+
+<section class="tips-container">
+    <h2>Why Use Our Prediction Tool?</h2>
+    <div class="tips-grid">
+        <div class="tip-card">
+            <h3>Early Detection</h3>
+            <p>Identify potential obesity risks before they become serious health concerns.</p>
+        </div>
+        <div class="tip-card">
+            <h3>Personalized Advice</h3>
+            <p>Get customized diet and exercise recommendations based on your results.</p>
+        </div>
+        <div class="tip-card">
+            <h3>Scientific Approach</h3>
+            <p>Our predictions are based on machine learning models trained on extensive health data.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
