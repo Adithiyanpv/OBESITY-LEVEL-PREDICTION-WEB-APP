@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Obesity Prediction Web Application
 
 A Flask-based web application for predicting obesity risk and providing health recommendations.
@@ -40,3 +41,6 @@ obesity-prediction/
 - Detailed health tips and recommendations
 - Responsive design for all devices
 - Beautiful and professional UI
+=======
+# OBESITY-LEVEL-PREDICTION-WEB-APP
+>>>>>>> 5f4d7d6971a315ccbca69996421bb0513e106944
