@@ -6,7 +6,7 @@ import joblib
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load(r'C:\Users\AdithiyanPV\OneDrive\Desktop\WEB APP INFOSYS SPRINGBAORD\finallll.pkl')
+model = joblib.load('finallll.pkl')
 
 @app.route('/')
 def home():
